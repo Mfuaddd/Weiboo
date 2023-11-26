@@ -1,0 +1,34 @@
+.servicescard {
+  border: 1px solid rgb(241, 241, 241);
+  width: 345px;
+  height: 135px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__container {
+    font-family: Jost, snat-serif;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    &__left {
+      font-size: 40px;
+      color: #0070db;
+    }
+    &__right {
+      display: flex;
+      flex-direction: column;
+      &_header {
+        color: #031424;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      &_descript {
+        font-size: 14px;
+        color: gray;
+      }
+    }
+  }
+}

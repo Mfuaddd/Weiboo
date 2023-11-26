@@ -1,0 +1,15 @@
+#services {
+  max-width: 1460px;
+  padding: 50px 15px;
+  margin: 0 auto;
+}
+@media (max-width: 575.98px) {
+  .servicescards {
+    gap: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .servicescards {
+    gap: 20px;
+  }
+}

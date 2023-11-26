@@ -1,0 +1,153 @@
+.offerscard{
+    font-family: Jost, snat-serif;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    gap: 10px;
+    &__lastcall{
+        width: 25%;
+        height: 200px;
+        background-color: #F3F3F3;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        &_textbox{
+            padding-left: 20px;
+            &_header{
+                font-size: 20px;
+                color: #ef262c;
+                font-weight: 700;
+            }
+            &_info{
+                font-size: 24px;
+                color: #031424;
+                padding: 10px 0px;
+            }
+            &_view{
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                color: #777777;
+                gap: 10px;
+                padding-top: 15px;
+                font-weight: 600;
+                transition: 400ms;
+                &:hover{
+                    color: #031424;
+                    gap: 15px;
+                }
+            }
+        }
+        &_img{
+            img{
+                max-height: 100%;
+                transition: 300ms;
+                padding-right: 20px;
+            }
+            img:hover{
+                transform: scale(1.05);
+            }
+        }
+    }
+    &__smartphone{
+        width: 50%;
+        height: 200px;
+        background-color: #F3F3F3;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        overflow: hidden;
+        &_textbox{
+            padding-left: 20px;
+            &_header{
+                font-size: 20px;
+                color: #ef262c;
+                font-weight: 700;
+            }
+            &_info{
+                font-size: 24px;
+                color: #031424;
+                padding: 10px 0px;
+                span{
+                    font-weight: 700;
+                }
+            }
+            &_view{
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                color: #777777;
+                gap: 10px;
+                padding-top: 15px;
+                font-weight: 600;
+                transition: 400ms;
+                &:hover{
+                    color: #031424;
+                }
+            }
+        }
+        &_img{
+            img{
+                max-height: 100%;
+                transition: 300ms;
+                padding-right: 20px;
+            }
+            img:hover{
+                transform: scale(1.05);
+            }
+
+        }
+    }
+    &__electronics{
+        width: 25%;
+        height: 200px;
+        background-color: #F3F3F3;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        &_textbox{
+            padding-left: 20px;
+            &_header{
+                color: #777777;
+                font-size: 12px;
+                letter-spacing: 3px;
+                font-weight: 700;
+            }
+            &_info{
+                font-size: 24px;
+                color: #031424;
+                padding: 10px 0px;
+                font-weight: 500;
+            }
+            &_view{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                color: #0070DC;
+                font-weight: 600;
+                transition: 400ms;
+                &:hover{
+                    gap: 15px;
+                }
+            }
+        }
+        &_img{
+            img{
+                max-height: 100%;
+                transition: 300ms;
+                padding-right: 20px;
+
+            }
+            img:hover{
+                transform: scale(1.05);
+            }
+
+        }
+    }
+}
