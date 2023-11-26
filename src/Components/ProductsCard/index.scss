@@ -26,9 +26,24 @@
     &_price {
       padding-top: 5px;
       cursor: pointer;
-      p {
-        color: #0070dc;
-        font-weight: 700;
+      ul {
+        height: 25px;
+        overflow: hidden;
+        li {
+          color: #0070dc;
+          font-weight: 700;
+          height: 25px;
+          opacity: 1;
+          transition: 400ms;
+        }
+        &:hover {
+          li:first-of-type {
+            opacity: 0;
+          }
+          li:last-of-type {
+            transform: translateY(-25px);
+          }
+        }
       }
     }
   }

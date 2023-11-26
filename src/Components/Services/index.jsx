@@ -1,5 +1,6 @@
 import React from 'react'
 import ServicesCards from '../ServicesCards'
+import './index.scss'
 
 const Services = () => {
   return (

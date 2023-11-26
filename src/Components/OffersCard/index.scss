@@ -9,7 +9,7 @@
         background-color: #F3F3F3;
         border-radius: 10px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         cursor: pointer;
         &_textbox{
@@ -38,17 +38,16 @@
                     gap: 15px;
                 }
             }
-            // &_img{
-            //     img{
-            //         max-height: 100%;
-            //         transition: 300ms;
-
-            //     }
-            //     img:hover{
-            //         transform: scale(1.05);
-            //     }
-
-            // }
+        }
+        &_img{
+            img{
+                max-height: 100%;
+                transition: 300ms;
+                padding-right: 20px;
+            }
+            img:hover{
+                transform: scale(1.05);
+            }
         }
     }
     &__smartphone{
@@ -60,6 +59,7 @@
         justify-content: space-between;
         align-items: center;
         cursor: pointer;
+        overflow: hidden;
         &_textbox{
             padding-left: 20px;
             &_header{
@@ -88,9 +88,17 @@
                     color: #031424;
                 }
             }
-            &_img{
+        }
+        &_img{
+            img{
+                max-height: 100%;
+                transition: 300ms;
                 padding-right: 20px;
             }
+            img:hover{
+                transform: scale(1.05);
+            }
+
         }
     }
     &__electronics{
@@ -127,9 +135,18 @@
                     gap: 15px;
                 }
             }
-            &_img{
+        }
+        &_img{
+            img{
+                max-height: 100%;
+                transition: 300ms;
                 padding-right: 20px;
+
             }
+            img:hover{
+                transform: scale(1.05);
+            }
+
         }
     }
 }
