@@ -3,8 +3,9 @@
     display: flex;
     margin: auto;
     justify-content: space-between;
+    gap: 10px;
     &__lastcall{
-        width: 350px;
+        width: 25%;
         height: 200px;
         background-color: #F3F3F3;
         border-radius: 10px;
@@ -51,7 +52,7 @@
         }
     }
     &__smartphone{
-        width: 710px;
+        width: 50%;
         height: 200px;
         background-color: #F3F3F3;
         border-radius: 10px;
@@ -102,7 +103,7 @@
         }
     }
     &__electronics{
-        width: 350px;
+        width: 25%;
         height: 200px;
         background-color: #F3F3F3;
         border-radius: 10px;

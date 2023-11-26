@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.scss";
-
 const ProductsCard = ({
   img,
   text1,
