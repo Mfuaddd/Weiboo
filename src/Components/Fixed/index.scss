@@ -1,0 +1,16 @@
+.fixed {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  border-radius: 50%;
+  background-color: #ee403d;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  right: 40px;
+  bottom: 40px;
+  i {
+    font-size: 24px;
+    color: #fff;
+  }
+}

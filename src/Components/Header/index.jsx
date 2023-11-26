@@ -4,7 +4,7 @@ import "./index.scss";
 function Header() {
   return (
     <>
-      <header className=".header">
+      <header id="header" className="header">
         <div className="header__top">
           <div className="header__container">
             <div className="header__top__left">

@@ -10,6 +10,7 @@ import Blog from "./Components/Blog";
 import BlueAdverst from "./Components/BlueAdverst";
 import Copyright from "./Components/Copyright";
 import Footer from "./Components/Footer";
+import Fixed from "./Components/Fixed";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <BlueAdverst />
       <Footer />
       <Copyright />
+      <Fixed/>
     </>
   );
 }
