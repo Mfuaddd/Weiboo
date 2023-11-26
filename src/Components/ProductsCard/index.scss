@@ -1,0 +1,35 @@
+.productscard {
+  border: 1px solid rgb(241, 241, 241);
+  width: 280px;
+  height: 480px;
+  font-family: Jost, snat-serif;
+  display: flex;
+  flex-direction: column;
+  &__img {
+    margin-top: 35px;
+  }
+  &__info {
+    padding-left: 10px;
+    padding-top: 20px;
+    &_category {
+      font-size: 12px;
+      a {
+        color: gray;
+        padding-right: 5px;
+      }
+    }
+    &_name {
+      color: #031424;
+      padding: 5px 0px;
+      cursor: pointer;
+    }
+    &_price {
+      padding-top: 5px;
+      cursor: pointer;
+      p {
+        color: #0070dc;
+        font-weight: 700;
+      }
+    }
+  }
+}
