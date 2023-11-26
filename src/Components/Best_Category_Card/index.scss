@@ -39,8 +39,7 @@
       a:hover {
         color: #0d6efd;
         i {
-        color: #0d6efd;
-
+          color: #0d6efd;
         }
       }
     }
@@ -60,15 +59,12 @@
     a {
       color: #898d91;
     }
-    i {
-    }
-    
   }
   .best__category__card__btn:hover {
     background: #0d6efd;
     color: white;
-    a{
-        color: white;
+    a {
+      color: white;
     }
   }
   .best__category__card__img {
@@ -76,7 +72,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    img {
-    }
   }
 }
