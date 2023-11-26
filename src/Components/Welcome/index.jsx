@@ -13,7 +13,7 @@ function Welcome() {
                     <div className="welcome__top__left__text">
                             <p>Weekend Discount</p>
                             <h2>Big screens in <br/> incredibly slim <br/> designs...</h2>
-                            <a href="/#">Shop Now</a>
+                            <a href="/#">Shop Now <i className="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                     <div className="welcome__top__left__btns">
                         <i className="fa-solid fa-arrow-up"></i>
@@ -47,9 +47,6 @@ function Welcome() {
                     </div>
                 </div>
             </div>
-        </div>
-        <div className="welcome__bottom">
-
         </div>
     </section>
   )

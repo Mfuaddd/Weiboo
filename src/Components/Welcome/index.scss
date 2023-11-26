@@ -5,9 +5,10 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 20px;
     }
     &__top{
-        padding: 20px;
+        padding: 20px 15px;
         &__left{
             background-image: url(https://reactheme.com/products/wordpress/weiboo/wp-content/uploads/2022/06/productbg.webp);
             background-repeat: no-repeat;
@@ -20,7 +21,6 @@
             align-items: center;
             justify-content: center;
             position: relative;
-            margin: 10px;
             &__img{
                 position: absolute;
                 top: 20%;
@@ -55,6 +55,11 @@
                     font-weight: 600;
                     color: #000000;
                     margin-top: 40px;
+                    transition: 300ms;
+                }
+                a:hover{
+                    background-color: #ffbd27;
+                    color: #FFFFFF;
                 }
             }
             &__btns{
@@ -89,11 +94,11 @@
         &__right{
             font-family: 'Jost', sans-serif;
             width: calc(100% / 3);
-            margin: 10px;
             >div{
                 margin-bottom: 20px;
                 border-radius: 10px;
                 height: 220px;
+                width: 100%;
                 display:flex;
                 justify-content: space-between;
                 align-items: center;
@@ -137,6 +142,12 @@
                 }
                 img{
                     max-height: 100%;
+                    transition: 300ms;
+                }
+            }
+            &__first:hover{
+                img{
+                    transform: scale(1.05);
                 }
             }
             &__second{
@@ -165,6 +176,12 @@
                 }
                 img{
                     max-height: 100%;
+                    transition: 300ms;
+                }
+            }
+            &__second:hover{
+                img{
+                    transform: scale(1.05);
                 }
             }
             &__third{
@@ -195,8 +212,32 @@
                 }
                 img{
                     max-height: 100%;
+                    transition: 300ms;
+                }
+                img:hover{
+                    transform: scale(1.05);
                 }
             }
+            &__third:hover{
+                img{
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 1000px) {
+        &__container{
+            flex-direction: column;
+        }
+        &__top{
+            width: calc(100%);
+
+            &__left{
+                width: 100%;
+            } 
+            &__right{
+                width: 100%;
+            }   
         }
     }
 }

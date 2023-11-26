@@ -77,19 +77,64 @@ function Header() {
                 <nav>
                     <ul className='header__bottom__center__navbar'>
                         <li className='header__bottom__center__navbar__home'>
-                            <a href="/#">Home</a>
+                            <span>Home</span>
+                            <ul className='header__bottom__center__navbar__menu'>
+                                <li><a href="/#">Main Home</a></li>
+                                <li><a href="/#">Fashion Home</a></li>
+                                <li><a href="/#">Fashion Home 2</a></li>
+                                <li><a href="/#">Furniture Home</a></li>
+                                <li><a href="/#">Decor Home</a></li>
+                                <li><a href="/#">Electronics Home</a></li>
+                                <li><a href="/#">Glocery Home</a></li>
+                                <li><a href="/#">Footwear Home</a></li>
+                                <li><a href="/#">Gaming Home</a></li>
+                            </ul>
                         </li>
                         <li className='header__bottom__center__navbar__shop'>
-                            <a href="/#">Shop</a>
+                            <span>Shop</span>
+                            <ul className='header__bottom__center__navbar__shop__menu'>
+                                <ul>
+                                    <li><a href="/#">Shop</a></li>
+                                    <li><a href="/#">Left Slider Shop</a></li>
+                                    <li><a href="/#">Right Slider Shop</a></li>
+                                    <li><a href="/#">Full Width Shop</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="/#">Product Layout One</a></li>
+                                    <li><a href="/#">Product Layout Two</a></li>
+                                    <li><a href="/#">Product Layout Three</a></li>
+                                    <li><a href="/#">Variable Product</a></li>
+                                    <li><a href="/#">Grouped Product</a></li>
+                                    <li><a href="/#">Affiliate Product</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="/#">Cart</a></li>
+                                    <li><a href="/#">Checkout</a></li>
+                                    <li><a href="/#">My account</a></li>
+                                </ul>
+
+                            </ul>
                         </li>
                         <li className='header__bottom__center__navbar__pages'>
-                            <a href="/#">Pages</a>
+                            <span>Pages</span>
+                            <ul className='header__bottom__center__navbar__menu'>
+                                <li><a href="/#">About</a></li>
+                                <li><a href="/#">FAQ's</a></li>
+                                <li><a href="/#">Error 404</a></li>
+                                <li><a href="/#">Search Result</a></li>
+                            </ul>
                         </li>
                         <li className='header__bottom__center__navbar__blog'>
-                            <a href="/#">Blog</a>
+                            <span>Blog</span>
+                            <ul className='header__bottom__center__navbar__menu'>
+                                <li><a href="/#">Blog</a></li>
+                                <li><a href="/#">Blog Grid</a></li>
+                                <li><a href="/#">Blog Grid Style 2</a></li>
+                                <li><a href="/#">Blog Details</a></li>
+                            </ul>
                         </li>
                         <li className='header__bottom__center__navbar__contact'>
-                            <a href="/#">Contact</a>
+                            <span>Contact</span>
                         </li>
                     </ul>
                 </nav>

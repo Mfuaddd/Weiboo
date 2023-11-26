@@ -183,8 +183,9 @@
     &__bottom{
         position: -webkit-sticky;
         position: sticky;
+        z-index: 1;
         top: 0;
-        padding: 10px;
+        padding: 10px 15px;
         background-color: #031424;
         &__left{
             font-family: 'Jost', sans-serif;
@@ -213,18 +214,19 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                gap: 20px;
                 font-family: 'Jost', sans-serif;
                 font-weight: 600;
 
-                li{
+                > li{
                     padding: 15px;
-                    a{
+                    span{
                         padding-right: 20px;
                         color: #FFFFFF;
                         position: relative;
                         transition: 200ms;
                     }
-                    a::after{
+                    span::after{
                         content: "+";
                         font-family: sans-serif;
                         font-size: 1.25rem;
@@ -233,13 +235,97 @@
                         top: 0;
                         right: 0;
                     }
-                    a:hover{
+                    span:hover{
                         color: #FFBD27;
                     }
                 }
                 li:first-of-type{
-                    a{
+                    span{
                         color: #FFBD27;
+                    }
+                }
+                &__home, &__shop, &__pages, &__blog{
+                    position: relative;
+
+                    &:hover{
+                        .header__bottom__center__navbar__menu{
+                            transform: scaleY(100%);
+                            opacity: 1;
+                        }
+                    }
+                }
+                &__menu{
+                    position: absolute;
+                    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                    top: 100%;
+                    border-top: 5px solid #FFBD27;
+                    left: 0;
+                    width: 250%;
+                    transition: 300ms all ease;
+                    transform-origin: top;
+                    transform: scaleY(0);
+                    opacity: 0;
+                    li{
+                        padding: 15px;
+                        background-color: #FFFFFF;
+                        border-bottom: 1px solid #f2f2f2;
+                        a{
+                            font-family: 'Jost', sans-serif;
+                            color: #000000;
+                            font-weight: 500;
+                            font-size: 0.875rem;
+                            transition: 300ms;
+                        }
+                    }
+                    li:hover{
+                        a{
+                            color: #FFBD27;
+                        }
+                    }
+                    li:last-of-type{
+                        border-bottom: none;
+                    }
+                }
+                &__shop{
+                    position: relative;
+                    &__menu{
+                        position: absolute;
+                        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                        top: 100%;
+                        border-top: 5px solid #FFBD27;
+                        display: flex;
+                        justify-content: space-between;
+                        padding-bottom: 30px;
+                        left: -400%;
+                        width: 1000%;
+                        transition: 300ms all ease;
+                        transform-origin: top;
+                        transform: scaleY(0);
+                        opacity: 0;
+                        background-color: #FFFFFF;
+                        li{
+                            padding: 10px 30px;
+                            background-color: #FFFFFF;
+                            a{
+                                font-family: 'Jost', sans-serif;
+                                color: #000000;
+                                font-weight: 500;
+                                font-size: 0.875rem;
+                                transition: 300ms;
+                            }
+                        }
+                        li:hover{
+                            a{
+                                color: #FFBD27;
+                            }
+                        }
+                        
+                    }
+                    &:hover{
+                        .header__bottom__center__navbar__shop__menu{
+                            transform: scaleY(100%);
+                            opacity: 1;
+                        }
                     }
                 }
             }
