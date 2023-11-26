@@ -1,11 +1,12 @@
 import './App.scss';
 import Header from './Components/Header';
+import Welcome from './Components/Welcome';
 
 function App() {
   return (
     <>
       <Header/>
-      <div style={{height: "200vh"}} ></div>
+      <Welcome/>
     </>
   );
 }
