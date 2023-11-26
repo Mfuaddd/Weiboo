@@ -1,0 +1,27 @@
+.blue__adverts__card{
+    width: 20%;
+    padding: 30px 0px;
+    display: grid;
+    place-items: center;
+    img{
+        opacity: 0.4;
+        transition: 0.5s all ease;
+        filter: brightness(100);
+        &:hover{
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
+
+}
+@media (min-width: 320px) and (max-width:767px) {
+    .blue__adverts__card{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px) { 
+    .blue__adverts__card{
+        width: 50%;
+    }
+}

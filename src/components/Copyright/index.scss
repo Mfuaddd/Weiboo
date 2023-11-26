@@ -1,0 +1,28 @@
+#copyright {
+    background-color: #031424;
+    font-family: 'Jost', sans-serif;
+    display: grid;
+    place-items: center;
+    padding: 30px 0px;
+    margin: auto;
+
+    p {
+        color: #7a7a7a;
+        font-size: 16px;
+        max-width: 1460px;
+        margin: auto;
+
+        span {
+            font-weight: 700;
+            color: #ffff;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width:767px) {
+    #copyright {
+        p {
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.blue__adverts__cards{
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media (min-width: 320px) and (max-width:767px) {
+    .blue__adverts__cards{
+        flex-direction: column;
+    }
+}
+
+// @media (min-width: 768px) and (max-width:1024px) { }
