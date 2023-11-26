@@ -1,8 +1,8 @@
 import './App.scss';
-import Blog from './components/Blog';
-import BlueAdverst from './components/BlueAdverst';
-import Copyright from './components/Copyright';
-import Footer from './components/Footer';
+import Blog from './Components/Blog';
+import BlueAdverst from './Components/BlueAdverst';
+import Copyright from './Components/Copyright';
+import Footer from './Components/Footer';
 
 function App() {
   return (
