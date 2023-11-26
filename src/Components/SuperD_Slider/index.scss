@@ -1,5 +1,5 @@
 .superd__slider {
-  width: 950px;
+  width: 65%;
   height: 550px;
   border: 1px solid #e7e7e7;
   padding: 40px 0px 40px 0px;
@@ -23,19 +23,17 @@
     display: flex;
     align-items: center;
     .superd__slider__img {
-      height: 470px;
-      width: 322px;
+      width: 35%;
       margin-right: 10px;
       display: flex;
       align-items: center;
-      
     }
     .superd__slider__txt {
       width: 50%;
       margin-left: 20px;
       .superd__slider__stars {
         margin-bottom: 10px;
-        
+
         i {
           color: #ffbe2b;
         }
@@ -59,6 +57,11 @@
           color: #0070dc;
           font-size: 50px;
           font-weight: bold;
+        }
+        @media only screen and (max-width: 1000px) {
+          span {
+            font-size: 20px;
+          }
         }
       }
       .superd__slider__add {
@@ -85,5 +88,10 @@
           rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
       }
     }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .superd__slider {
+    width: 100%;
   }
 }

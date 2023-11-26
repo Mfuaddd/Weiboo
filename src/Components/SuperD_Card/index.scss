@@ -1,6 +1,6 @@
 .superd__card {
     border: 1px solid #e7e7e7;
-    width: 450px;
+    width: 35%;
     height: 550px;
     border-radius: 10px;
     padding: 40px;
@@ -62,5 +62,12 @@
         rgba(255, 153, 0, 0.696) 0px -12px 30px, rgba(255, 153, 0, 0.499) 0px 4px 6px,
         rgba(255, 157, 0, 0.381) 0px 12px 13px,rgba(255, 159, 5, 0.353) 0px -3px 5px;
     }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .superd__card {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
   }
 }
