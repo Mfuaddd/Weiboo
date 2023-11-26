@@ -30,11 +30,11 @@ const SuperD_Slider = () => {
         </div>
         <div className="superd__slider__txt">
           <div className="superd__slider__stars">
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
+            <i className="fa-regular fa-star"></i>
+            <i className="fa-regular fa-star"></i>
+            <i className="fa-regular fa-star"></i>
+            <i className="fa-regular fa-star"></i>
+            <i className="fa-regular fa-star"></i>
             <span>(0 Reviews)</span>
           </div>
           <div className="superd__slider__tag">

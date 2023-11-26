@@ -11,7 +11,7 @@ const index = () => {
         <div className="best__category__header__right">
           <a href="">
             <span>Other Category</span>
-            <i class="fa-solid fa-arrow-right-long"></i>
+            <i className="fa-solid fa-arrow-right-long"></i>
           </a>
         </div>
       </div>
