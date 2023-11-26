@@ -1,0 +1,80 @@
+.superd {
+  max-width: 1460px;
+  margin: 40px auto;
+  font-family: Jost;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .superd__header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .superd__header__left {
+      display: flex;
+      flex-direction: row;
+      padding: 15px;
+      h3 {
+        line-height: 1;
+        color: #000000;
+        font-size: 28px;
+        margin-right: 40px;
+      }
+      
+      .superd__header__counter {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+       margin-left: 40px;
+      }
+      @media only screen and (max-width: 1000px) {
+        .superd__header__counter {
+          margin: 20px 0;
+        }
+      }
+    }
+    @media only screen and (max-width: 1000px) {
+      .superd__header__left {
+        flex-direction: column;
+      }
+    }
+   
+    .superd__header__right {
+      padding: 15px;
+      a {
+        height: 20px;
+        display: flex;
+        align-items: center;
+        color: #0070dc;
+
+        span {
+          font-size: 14px;
+          font-weight: bold;
+        }
+        i {
+          font-size: 14px;
+          margin-left: 10px;
+        }
+      }
+    }
+    @media only screen and (max-width: 700px) {
+      .superd__header__right {
+        display: none;
+      }
+    }
+  }
+  .superd__cards {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: center;
+    padding: 15px;
+  }
+  @media only screen and (max-width: 1000px) {
+    .superd__cards {
+      flex-direction: column;
+    }
+  }
+   
+}

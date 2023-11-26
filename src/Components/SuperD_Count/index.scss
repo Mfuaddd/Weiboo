@@ -1,0 +1,23 @@
+.superd__counter{
+    width: 36px;
+    height: 36px;
+    background-color: #0070DC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    .superd__counter__num{
+        
+        font-size: 14px; 
+        font-weight: bold;
+    }
+    .superd__counter__text{
+        font-weight: bold;
+        font-size: 10px ;
+        margin-bottom: 3px;
+    
+    }
+}
