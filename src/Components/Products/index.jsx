@@ -11,7 +11,7 @@ const Products = () => {
             </div>
             <div className="products__header_right">
             <p>All Products</p>
-            <i class="fa-solid fa-arrow-right-long"></i>
+            <i className="fa-solid fa-arrow-right-long"></i>
             </div>
         </div>
         <ProductsCards></ProductsCards>

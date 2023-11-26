@@ -12,7 +12,7 @@ const OffersCard = () => {
           </p>
           <div className="offerscard__lastcall_textbox_view">
             <p>View Collections </p>
-            <i class="fa-solid fa-arrow-right-long"></i>
+            <i className="fa-solid fa-arrow-right-long"></i>
           </div>
         </div>
         <div className="offerscard__lastcall_img">
@@ -45,7 +45,7 @@ const OffersCard = () => {
           <p className="offerscard__electronics_textbox_info">Home Speaker</p>
           <div className="offerscard__electronics_textbox_view">
             <p>Shop Now </p>
-            <i class="fa-solid fa-arrow-right-long"></i>
+            <i className="fa-solid fa-arrow-right-long"></i>
           </div>
         </div>
         <div className="offerscard__electronics_img">

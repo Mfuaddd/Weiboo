@@ -18,6 +18,7 @@
       align-items: center;
       gap: 10px;
       cursor: pointer;
+      opacity: 1;
       p {
         color: #ef262c;
         font-size: 14px;
@@ -25,6 +26,15 @@
       }
       i {
         color: #ef262c;
+      }
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  #products {
+    .products__header {
+      &_right {
+        display: none;
       }
     }
   }
