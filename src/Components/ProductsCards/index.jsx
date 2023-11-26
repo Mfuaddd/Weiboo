@@ -1,6 +1,5 @@
 import React from "react";
 import ProductsCard from "../ProductsCard";
-import "./index.scss";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
