@@ -9,7 +9,7 @@ const Blog = () => {
             <h3>Blog & Insights</h3>
         </div>
         <div className="blog__header__left">
-            <a href=""><span>Other Category  <i class="fa-solid fa-arrow-right"></i></span></a>
+            <a href="/#"><span>Other Category  <i class="fa-solid fa-arrow-right"></i></span></a>
         </div>
     </div>
     <BlogCards/>

@@ -12,7 +12,7 @@ const FooterLeft = () => {
                 </div>
                 <div className="footerleft_content_date">
                     <div className="footerleft_content_date_icon">
-                        <i class="fa-regular fa-clock"></i>
+                        <i className="fa-regular fa-clock"></i>
                     </div>
                     <div className="footerleft_content_date_text">
                         <span>Mon - Fri: 9:00-20:00</span>
@@ -21,7 +21,7 @@ const FooterLeft = () => {
                 </div>
                 <div className="footerleft_content_mail">
                     <div className="footerleft_content_mail_icon">
-                        <i class="fa-solid fa-envelope-open-text"></i>
+                        <i className="fa-solid fa-envelope-open-text"></i>
                     </div>
                     <div className="footerleft_content_mail_text">
                         <span>Get Support</span>
@@ -31,16 +31,16 @@ const FooterLeft = () => {
                 <div className="footerleft_content_icon">
                     <div className="footerleft_content_icon_content ">
                         <div className="footerleft_content_icon_content_facebook footer__icon" >
-                        <i class="fa-brands fa-facebook"></i>
+                        <i className="fa-brands fa-facebook"></i>
                         </div>
                         <div className="footerleft_content_icon_content_youtube footer__icon">
-                        <i class="fa-brands fa-youtube"></i>
+                        <i className="fa-brands fa-youtube"></i>
                         </div>
                         <div className="footerleft_content_icon_content_twitter footer__icon">
-                        <i class="fa-brands fa-twitter"></i>
+                        <i className="fa-brands fa-twitter"></i>
                         </div>
                         <div className="footerleft_content_icon_content_linkedin footer__icon">
-                        <i class="fa-brands fa-linkedin"></i>
+                        <i className="fa-brands fa-linkedin"></i>
                         </div>
                     </div>
                 </div>
